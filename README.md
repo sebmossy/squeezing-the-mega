@@ -1,6 +1,8 @@
 # Squeezing the Mega — OV7670 Camera
 
-An experimental camera interface for an OV7670 **without FIFO**, using a Mega 2560 to capture pixels and a Windows app to display them over serial. The project explores direct port access, sensor windowing and cycle-timed AVR sampling under the Mega's 8 KB RAM limit.
+A personal learning project from my first year studying Robotics and Automation. I wanted to see what I could get working with an OV7670 camera **without FIFO**, an Arduino Mega 2560, and its 8 KB of SRAM.
+
+It grew into a small camera system with a Windows/Python viewer, several capture modes, and experiments with direct port reads and cycle-timed pixel sampling.
 
 [![Camera application showing a raw sensor frame](assets/gui.png)](assets/demo.mp4)
 
@@ -69,6 +71,6 @@ The crop buffer uses 6,400 bytes, leaving about 1.1 KB of SRAM for stack and loc
 
 FIFO-less OV7670 streaming on 8-bit AVR hardware predates this project; see [ComputerNerd's Arduino Uno implementation](https://github.com/ComputerNerd/ov7670-no-ram-arduino-uno). Sensor configuration is also documented in the [OV7670 datasheet](https://www.olimex.com/Products/Components/Camera/CAMERA-OV7670/resources/OV7670.pdf) and the [Linux OV7670 driver](https://github.com/torvalds/linux/blob/master/drivers/media/i2c/ov7670.c). These are references and related work, not claims of direct code derivation.
 
-I conceived and directed the project, proposed features and changes, integrated the hardware, and carried out testing and iterative debugging. AI tools assisted extensively with firmware, Python implementation, and documentation.
+I came up with the project ideas, guided the features and changes, wired up the hardware, and tested and debugged the results. AI tools helped extensively with writing and refining the firmware, Python application, and documentation. This is an ongoing experiment and learning project.
 
 Third-party code provenance and reuse permissions have not been definitively cleared; no license is selected at this stage.
