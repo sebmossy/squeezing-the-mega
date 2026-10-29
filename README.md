@@ -17,12 +17,12 @@ An experimental camera interface for an OV7670 **without FIFO**, using a Mega 25
 
 ## Camera image examples
 
-| Full-resolution grayscale | Raw Bayer stream | Small grayscale view |
-| --- | --- | --- |
-| ![640 by 480 grayscale full-view frame](assets/examples/full-view.png) | ![Raw Bayer sensor values shown as grayscale, rotated](assets/examples/raw-bayer.svg) | ![160 by 120 grayscale photo, rotated](assets/examples/small-view.svg) |
-| A 640 × 480 luminance frame from a full-view startup test, using divider 31. | A 640 × 480 raw Bayer frame streamed byte by byte and displayed as grayscale; the visible sensor mosaic has not been demosaiced. | A saved 160 × 120 grayscale photo, matching the fast full-view dimensions. Its original camera settings were not recorded. |
+| Raw Bayer stream | Small grayscale view |
+| --- | --- |
+| ![Raw Bayer sensor values shown as grayscale, rotated](assets/examples/raw-bayer.svg) | ![160 by 120 grayscale photo, rotated](assets/examples/small-view.svg) |
+| A 640 × 480 raw Bayer frame streamed byte by byte and displayed as grayscale; the visible sensor mosaic has not been demosaiced. | A saved 160 × 120 grayscale photo, matching the fast full-view dimensions. Its original camera settings were not recorded. |
 
-The second and third examples are displayed 90° counterclockwise; their original pixel data is preserved.
+Both examples are displayed 90° counterclockwise; their original pixel data is preserved.
 
 ## Measured performance
 
