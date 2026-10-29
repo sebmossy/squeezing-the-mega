@@ -15,6 +15,15 @@ An experimental camera interface for an OV7670 **without FIFO**, using a Mega 25
 - AVR assembly crop reader synchronized to PCLK; no external frame buffer.
 - Photo saving and a window recorder that demonstrates the modes.
 
+## Camera image examples
+
+| Full-resolution grayscale | Raw Bayer stream | Small grayscale view |
+| --- | --- | --- |
+| ![640 by 480 grayscale full-view frame](assets/examples/full-view.png) | ![Raw Bayer sensor values shown as grayscale, rotated](assets/examples/raw-bayer.svg) | ![160 by 120 grayscale photo, rotated](assets/examples/small-view.svg) |
+| A 640 × 480 luminance frame from a full-view startup test, using divider 31. | A 640 × 480 raw Bayer frame streamed byte by byte and displayed as grayscale; the visible sensor mosaic has not been demosaiced. | A saved 160 × 120 grayscale photo, matching the fast full-view dimensions. Its original camera settings were not recorded. |
+
+The second and third examples are displayed 90° counterclockwise; their original pixel data is preserved.
+
 ## Measured performance
 
 Measurements on the tested Mega/CH340 setup at **1 Mbps**, after warm-up. Times include sensor capture and serial transfer; results are short-run observations, not guaranteed frame rates.
@@ -29,12 +38,6 @@ Measurements on the tested Mega/CH340 setup at **1 Mbps**, after warm-up. Times 
 | 640 × 480 raw Bayer | 20 | 4.20–4.31 s | 6 matching pattern frames; less margin |
 
 The faster divider-1 crop is used by the recording demo and tested by script; the normal GUI experimental crop uses divider 2. [Recorded measurements](results/) include test conditions and pattern results.
-
-## Example capture
-
-![OV7670 grayscale camera example](assets/example-capture.jpg)
-
-Real OV7670 capture shown in grayscale, rotated for easier viewing. No image enhancement applied.
 
 ## Wiring
 
