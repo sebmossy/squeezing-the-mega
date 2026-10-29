@@ -30,6 +30,12 @@ Measurements on the tested Mega/CH340 setup at **1 Mbps**, after warm-up. Times 
 
 The faster divider-1 crop is used by the recording demo and tested by script; the normal GUI experimental crop uses divider 2. [Recorded measurements](results/) include test conditions and pattern results.
 
+## Example capture
+
+![OV7670 grayscale camera example](assets/example-capture.jpg)
+
+Real OV7670 capture shown in grayscale, rotated for easier viewing. No image enhancement applied.
+
 ## Wiring
 
 | OV7670 | Mega 2560 |
