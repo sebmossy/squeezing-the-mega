@@ -1,0 +1,7 @@
+raw frame 0 seconds 4.31 bad steps 0
+raw frame 1 seconds 4.2 bad steps 0
+raw frame 2 seconds 4.23 bad steps 0
+raw frame 3 seconds 4.23 bad steps 0
+raw frame 4 seconds 4.23 bad steps 0
+raw frame 5 seconds 4.23 bad steps 0
+Switched raw to crop to fast whole view successfully.

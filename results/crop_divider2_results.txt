@@ -1,0 +1,11 @@
+frame 0 seconds 0.61 bad transitions 0 row starts {8: 64}
+frame 1 seconds 0.61 bad transitions 0 row starts {8: 64}
+frame 2 seconds 0.6 bad transitions 0 row starts {8: 64}
+frame 3 seconds 0.61 bad transitions 0 row starts {8: 64}
+frame 4 seconds 0.6 bad transitions 0 row starts {8: 64}
+frame 5 seconds 0.6 bad transitions 0 row starts {8: 64}
+frame 6 seconds 0.6 bad transitions 0 row starts {8: 64}
+frame 7 seconds 0.61 bad transitions 0 row starts {8: 64}
+frame 8 seconds 0.6 bad transitions 0 row starts {8: 64}
+frame 9 seconds 0.61 bad transitions 0 row starts {8: 64}
+Returned to normal crop successfully.

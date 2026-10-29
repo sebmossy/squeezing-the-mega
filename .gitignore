@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+OV7670_Camera/photos/
+OV7670_Camera/recordings/
+*.bin

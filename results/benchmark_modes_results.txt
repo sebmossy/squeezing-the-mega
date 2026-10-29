@@ -1,0 +1,4 @@
+Fast full view 160x120: size=(160, 120) divider=2 seconds=[0.604, 0.604, 0.604, 0.604, 0.604] median=0.604
+Normal crop 100x64: size=(100, 64) divider=3 seconds=[0.805, 0.806, 0.806, 0.806, 0.806] median=0.806
+Experimental crop 100x64: size=(100, 64) divider=2 seconds=[0.604, 0.604, 0.604, 0.605, 0.604] median=0.604
+Raw full frame 640x480: size=(640, 480) divider=22 seconds=[4.631, 4.631, 4.631] median=4.631
